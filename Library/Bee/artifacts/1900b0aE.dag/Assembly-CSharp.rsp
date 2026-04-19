@@ -467,6 +467,7 @@
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyAI.cs"
 "Assets/Scripts/EnemyAwareness.cs"
+"Assets/Scripts/EnemyBoss.cs"
 "Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/ItemPickup.cs"
