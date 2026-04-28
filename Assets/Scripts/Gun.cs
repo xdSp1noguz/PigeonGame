@@ -27,6 +27,8 @@ public class Gun : MonoBehaviour
         gunTrigger = GetComponent<BoxCollider>();
         gunTrigger.size = new Vector3(1, verticalRange, range);
         gunTrigger.center = new Vector3(0, 0, range * 0.5f);
+
+        CanvasManager.Instance.UpdateAmmo(ammo);
     }
 
     // Update is called once per frame
@@ -97,6 +99,8 @@ public class Gun : MonoBehaviour
         nextTimeToFire = Time.time + fireRate;
 
         ammo--;
+        CanvasManager.Instance.UpdateAmmo(ammo);
+
 
     }
 
@@ -107,12 +111,13 @@ public class Gun : MonoBehaviour
             ammo += amount;
             Destroy(pickup);
         }
+        if(ammo > maxAmmo)
         {
-            if(ammo > maxAmmo)
-            {
-                ammo = maxAmmo;
-            }
+             ammo = maxAmmo;
         }
+
+        CanvasManager.Instance.UpdateAmmo(ammo);
+
     }
 
     private void OnTriggerEnter(Collider other)

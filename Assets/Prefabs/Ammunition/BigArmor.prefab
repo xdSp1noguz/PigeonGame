@@ -171,6 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   isHealth: 0
-  isArmor: 0
-  isAmmo: 1
-  amount: 60
+  isArmor: 1
+  isAmmo: 0
+  amount: 25
