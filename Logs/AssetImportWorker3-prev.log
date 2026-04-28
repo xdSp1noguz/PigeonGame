@@ -1,0 +1,664 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.2f1 (7a4c1aeef971) revision 8014874'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-timmb" at "2026-04-28T08:11:57.5155321Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16290 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-28T08:11:57Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+X:/pigeon/PigeonGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+58212
+-licensingIpc
+LicenseClient-timmb
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: X:/pigeon/PigeonGame
+X:/pigeon/PigeonGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [19848]  Target information:
+
+Player connection [19848]  * "[IP] 192.168.1.42 [Port] 0 [Flags] 2 [Guid] 1206849141 [EditorId] 1206849141 [Version] 1048832 [Id] WindowsEditor(7,Sp1noguz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19848] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.15 ms, found 4 plugins.
+Initialize engine version: 6000.4.2f1 (7a4c1aeef971)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path X:/pigeon/PigeonGame/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:          NVIDIA
+    VRAM:            5966 MB
+    App VRAM Budget: 5198 MB
+    Driver:          32.0.15.9621
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003230 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-timmb"
+[Licensing::IpcConnector] LicenseClient-timmb channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-timmb-6000.4.2" at "2026-04-28T08:11:58.8600586Z"
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 1057ms
+	BeginReloadAssembly (156ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (153ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (232ms)
+	FinalizeReload (491ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              2deeb23c6efa41f99bc3a77633e953f5
+  Correlation Id:          6a606c90810915eaf370784f813efa64
+  External correlation Id: 3576039894369178074
+  Machine Id:              cmfhQ4mhkY2n22zs8ZDohmKt/U8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-timmb-6000.4.2" (connect: 0.00s, validation: 0.00s, handshake: 1.29s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-timmb-6000.4.2-notifications" at "2026-04-28T08:12:00.1501698Z"
+[Licensing::Module] Licensing Background thread has ended after 2.63s
+[Licensing::Module] Licensing is initialized (took 0.42s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7972558865213-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-PigeonGame
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.013 seconds
+Domain Reload Profiling: 2426ms
+	BeginReloadAssembly (632ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (641ms)
+		LoadAssemblies (423ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (222ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1014ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6951 unused Assets / (6.5 MB). Loaded Objects now: 7802.
+Memory consumption went from 166.5 MB to 160.0 MB.
+Total: 12.881500 ms (FindLiveObjects: 0.927700 ms CreateObjectMapping: 1.683500 ms MarkObjects: 6.500000 ms  DeleteObjects: 3.768000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 260502.735971 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Weapons
+  importAddress: Guid(a37c07d1caceea7489ce0c373f0cd1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Weapons using Guid(a37c07d1caceea7489ce0c373f0cd1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4f56999003c2d37d4b82c5c43bc8b246') in 0.0808233 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b75f544517883ade912b044fc267c164 DependenciesID=9636c4127d39a69d19d701170d234f77 StaticDependenciesID=90a4885983010b0368eab0d35684997a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Tatical Lasers/Laser_D_Right.fbx
+  importAddress: Guid(23d66ceea3f4a1b40b10cf6005e5fde3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Tatical Lasers/Laser_D_Right.fbx using Guid(23d66ceea3f4a1b40b10cf6005e5fde3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cd453cc2ec85ce6eacb0d83c1c9f7334') in 0.1113356 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17b87e0540850a56d64a4d9ca0eb1045 DependenciesID=0c3779071cd1a009dfa9b30be0542d4f StaticDependenciesID=d3c27b336cd464a7eb5546e9108d26c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Barrels/Muzzles/Muzzle_ShotGun_Shoke_A.prefab
+  importAddress: Guid(d300ccd781d9b2b47a8b1e3ba11361ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Barrels/Muzzles/Muzzle_ShotGun_Shoke_A.prefab using Guid(d300ccd781d9b2b47a8b1e3ba11361ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e82e222590c30a8c82475a9fc024f73') in 0.018412 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc97576dbd62c7670a090b073d9829f5 DependenciesID=0e63fb7f8fbf60e8b951a9f140adcdc6 StaticDependenciesID=6827ca7c2ad9d82eb76d09750d143910 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Down.fbx
+  importAddress: Guid(cf29a2fa38e123049b44ea42f87ca8fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Down.fbx using Guid(cf29a2fa38e123049b44ea42f87ca8fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bd19967b51c8eacfa220878c304335da') in 0.0207686 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af01006cb5f18749020ea4011469bf7d DependenciesID=44b718c1939fd5b3ef74edad72784ab1 StaticDependenciesID=191757fc2a38faec068d7acbcde12957 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_B_Left.prefab
+  importAddress: Guid(f3ac5b855167a9f47b88cdf2623ffe82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_B_Left.prefab using Guid(f3ac5b855167a9f47b88cdf2623ffe82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '03f2b0f07501f3c8e55e03042a1a5f4f') in 0.0164182 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dda021c7917ef1a7c8be1b3396f0d175 DependenciesID=c092879093102919dd64d9e10744f6bf StaticDependenciesID=c438e7f434c4fddce94965ddb0fa76cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Weapons/ShotGun_B.prefab
+  importAddress: Guid(8dd42cfce9fbf934e97313e180757b63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Weapons/ShotGun_B.prefab using Guid(8dd42cfce9fbf934e97313e180757b63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9ca5ff7700bd0af53215446e665227df') in 0.0160113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=beff95b81249426f2ce3b5d4fe9e7b91 DependenciesID=0059e73e37513f7e36c9bf2f419ec3d9 StaticDependenciesID=f7f63521575f046b89feed23287a204a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_I.fbx
+  importAddress: Guid(3578bca305c988f4b8b1fdd8e61c6e32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_I.fbx using Guid(3578bca305c988f4b8b1fdd8e61c6e32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65ddbea6d2ec09c2a4c5002ebd4106b1') in 0.018799 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ec9762832b92442d5affc16ebb128ca DependenciesID=0137adca442aa0638c8c10d112987067 StaticDependenciesID=9860f2e700b4093700e8729be146d2d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Barrels/Muzzles_ShotGun/Muzzle_ShotGun_Device_A.fbx
+  importAddress: Guid(d0723a65e9e4c54458f279d55fa6d2ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Barrels/Muzzles_ShotGun/Muzzle_ShotGun_Device_A.fbx using Guid(d0723a65e9e4c54458f279d55fa6d2ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '96e67470aae9ea9feb52d24eb8f959bc') in 0.0176884 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=256a0170bcd005de888bc49490729c55 DependenciesID=11413515d65d9af4e1ae274579cab7ed StaticDependenciesID=cea709d344b7b9fa2aa2b0b0d49b9a79 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Barrels/Muzzles/Muzzle_ShotGun_Shoke_A_X2.prefab
+  importAddress: Guid(69aaa557ac3c4e344ac40e856b3fa60a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Barrels/Muzzles/Muzzle_ShotGun_Shoke_A_X2.prefab using Guid(69aaa557ac3c4e344ac40e856b3fa60a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '304fd715edd5f68c747e781b0c127999') in 0.018255 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3782b8ef8fa73524482ee424566c053 DependenciesID=9994022c187a91671e525e7eb59f4f99 StaticDependenciesID=e15798ebb7c28dffa3afab10419280bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lights/Light_B_Left.prefab
+  importAddress: Guid(aa4ecb8f98dd67347922319e6ed42c2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lights/Light_B_Left.prefab using Guid(aa4ecb8f98dd67347922319e6ed42c2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cff5db311f0c2bcfed9de6af319589c7') in 0.0164004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4618909eb01569a02d32acb7d3800e4 DependenciesID=5d8514e3a1f33ada0197c80a5e0fdc59 StaticDependenciesID=144631172fe90fe9178409b027d40039 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels/ForwardGrips
+  importAddress: Guid(eea5e708d91dfd445bb0fb75124c287b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels/ForwardGrips using Guid(eea5e708d91dfd445bb0fb75124c287b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5070c3cf2fe3c35bdbe025085b9c5c85') in 0.010935 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee1e73bfff9c5a939e28c5514b06de6c DependenciesID=b918bf20ed84daa1e494e3ebb2e3f65d StaticDependenciesID=3913ad145457241ab1c5192b4f5f2abd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_D.prefab
+  importAddress: Guid(ec661754a131d2048832cd03bfdf67f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_D.prefab using Guid(ec661754a131d2048832cd03bfdf67f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e319f3120dddcf77d524021f0f878408') in 0.0159657 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a316a7efd5d142cac0a51eb415c2b59c DependenciesID=3e23631893a43553fd01511db62f05b0 StaticDependenciesID=9e22ad24f895a30ed6bb5b8e29234118 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics
+  importAddress: Guid(61dbc4043f84fad4ebac82484537e7a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics using Guid(61dbc4043f84fad4ebac82484537e7a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '09429e2a10dac3f67598cbbdbac5eb12') in 0.0116233 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0a9497f8523945aad108a0798389fef DependenciesID=f7e21a6d24c7d46daa276e7496c8212e StaticDependenciesID=a0edc32f5f8e974f67e289cc70730995 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Tatical Lights
+  importAddress: Guid(345cdba81eb4fab4c86b34e9fad18ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Tatical Lights using Guid(345cdba81eb4fab4c86b34e9fad18ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e4045fa892975ba7eec216e07942d51') in 0.0140798 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8808d3105d9029e4d00101b435064ec4 DependenciesID=be63f3ea8e62d3ef0b19fb89ec1fe368 StaticDependenciesID=19e0555d2cda18475f6e3c33691ebe73 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Texture/Low Poly Weapon.png
+  importAddress: Guid(d987e6a3c5fa4b742a866ff0c313a687) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Texture/Low Poly Weapon.png using Guid(d987e6a3c5fa4b742a866ff0c313a687) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '79fde6f0fb287aadb6e5c06b4854780c') in 0.0711817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58e3380e49ed7ca455eb83da661c00ee DependenciesID=fb797a5175d2d03d326ceed9c5e85e27 StaticDependenciesID=5bbd76e6019516b8bb40648063aaa281 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Materials/Low Poly Lens.mat
+  importAddress: Guid(10448fa9df7ee7542942fc23303b0707) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Materials/Low Poly Lens.mat using Guid(10448fa9df7ee7542942fc23303b0707) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2c1de5823093bdb2aa72eac06a089c64') in 0.076308 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=617406c9d303f201893714d841e6fef9 DependenciesID=9f3e30ee2cfb610ec4da926897b5391b StaticDependenciesID=6db74012a0f722f1d9c90d2f32d1f251 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_G.fbx
+  importAddress: Guid(4fdf924f7944d5f4786c4c89463b9923) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_G.fbx using Guid(4fdf924f7944d5f4786c4c89463b9923) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '427008fb10be9915b22f28c959cd7e3f') in 0.0218383 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=422e3a0c70728b4b525743281cd01e92 DependenciesID=0f6f0445b0c03cf57722c6661c85bda5 StaticDependenciesID=ef39def207f840db91256428f5c91daf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Optics/Optics/Optic_A.fbx
+  importAddress: Guid(3c2b9804a7a9d75478bb3a2c0abf823a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Optics/Optics/Optic_A.fbx using Guid(3c2b9804a7a9d75478bb3a2c0abf823a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '63a8b4b8d716dd6bf5c35ceec6c0d59b') in 0.0206836 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a797b081d8addbcaeab080a5a4f85b2c DependenciesID=3cceddd53072ea6a7a71b6f0c7ad2f40 StaticDependenciesID=5dce43b36a6f8ad24d1b2a401bc21598 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Scenes/Demo.unity
+  importAddress: Guid(f319a536d8019f64588aa4d48fb1df9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Scenes/Demo.unity using Guid(f319a536d8019f64588aa4d48fb1df9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b266a7b6023dd13697a52697eb3fa981') in 0.0207383 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57a79a7bc154d6ac00a744fccc920e0a DependenciesID=a2816e2405f5dc75d2f80d2d87c6edb0 StaticDependenciesID=b4cd1ffe0e06e54e3c24e1385643f430 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Materials/Low Poly Weapon.mat
+  importAddress: Guid(2a461ee17a7f0b8449bd2c6e34b0e286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Materials/Low Poly Weapon.mat using Guid(2a461ee17a7f0b8449bd2c6e34b0e286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a965c87254a18826735e15527c82c8a8') in 0.0152387 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0bf2192c1453e110b88981900a9b627 DependenciesID=d04670789284637f3c47799942bb7dcd StaticDependenciesID=6af2fe4871c40549eb2ffa1e9550009c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_K.prefab
+  importAddress: Guid(8f654946e6a2982459b87af9a9f47dd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_K.prefab using Guid(8f654946e6a2982459b87af9a9f47dd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae96b37cc7f34b9b50c34d50e2d9c412') in 0.0172283 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca1618ca2ba15d61e76e3f515ec3b96a DependenciesID=048b97df67af031c8d4ae9e844e53b6e StaticDependenciesID=fba466061457aa99e8de1e074c89ac5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lasers
+  importAddress: Guid(2d5d9b6e2d99da842b9e3cd17651aee3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lasers using Guid(2d5d9b6e2d99da842b9e3cd17651aee3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c649c097d923ce40fcbea60c5a0b5cf') in 0.013006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a896925fff5e912fb37a1fbcebc5e8ab DependenciesID=875f21bd250e7cb0ddd178fb10ccfc27 StaticDependenciesID=831d948c78568f1c5969f9bed2d61e48 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Weapons/ShotGun_C.fbx
+  importAddress: Guid(76ba83fd1e90bf74787dd6d5c80f87ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Weapons/ShotGun_C.fbx using Guid(76ba83fd1e90bf74787dd6d5c80f87ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f6dd0036ec442a79adc7479cfd4276e5') in 0.0324227 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8746398114772333b004f4c23646c15 DependenciesID=2aec89844768ceb39151789aed160fc3 StaticDependenciesID=be539aded6919efcb88e018816d12e2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A
+  importAddress: Guid(1d16b5202673fdb44939cb23e13a4120) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A using Guid(1d16b5202673fdb44939cb23e13a4120) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a5d5b435ce89d44f6d89b0c956add56f') in 0.0131928 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7493d7ecacf210ab82ea3d6d3912e15 DependenciesID=89437c6a9d5a36ce4d32864cfbbe7628 StaticDependenciesID=1173b8d8c20d338138a32a8c1292f3bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_B_Right.prefab
+  importAddress: Guid(d48df2e04babc734d8078f6f3e03fe2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_B_Right.prefab using Guid(d48df2e04babc734d8078f6f3e03fe2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5ee1d4189b9e9aa4930e0e0057c07fab') in 0.0176053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b4a1e5e37b5bd74d9ab23e3797b0b8af DependenciesID=17e4f8b84f17944720eee59ad4af57fa StaticDependenciesID=c9ed7be43ff11d3fa83ef5218c91d129 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_C_Right.prefab
+  importAddress: Guid(8a6a50123c106fb408c714b7f34e9e8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_C_Right.prefab using Guid(8a6a50123c106fb408c714b7f34e9e8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2c5b01ffc53af76202151177b26c7f2b') in 0.0162828 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9c94913a4eaaf6254efcd255b5df4cf DependenciesID=35136a43726b8c0fede998dcc4463f5c StaticDependenciesID=88f3a22700ae58df3a3b03adc5b07415 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Optics/Optics/Optic_I.fbx
+  importAddress: Guid(a923e0d09a7e54f4d947681830d93d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Optics/Optics/Optic_I.fbx using Guid(a923e0d09a7e54f4d947681830d93d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '061d03db0c3807c97817fedacf44d690') in 0.0228238 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=117bcce3206a6cecff38ab7d3914d8c1 DependenciesID=0abc53ab211d515184c98a1ba7bbb2f4 StaticDependenciesID=4dc85b83d3f12368142f986a3b670a2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_C.prefab
+  importAddress: Guid(49c2a148458160f41947bec094667411) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_C.prefab using Guid(49c2a148458160f41947bec094667411) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6028f95f31909a8d256881b707035c45') in 0.0150432 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48cf5eb06c2b283dab3f8aaf82ca4ff0 DependenciesID=babac661473a5263477e90d53029a245 StaticDependenciesID=c7ebaab28f156b41d45f313d8c3c4fab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_H.prefab
+  importAddress: Guid(0b8b4a0b29e150546915995924320114) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_H.prefab using Guid(0b8b4a0b29e150546915995924320114) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0b70fa83abbf419c531a597790bcdaee') in 0.0191293 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57192ecc6a6a38b1730848b4abaac7d7 DependenciesID=9ceea99dda29f8ff8b71f2e8da764f32 StaticDependenciesID=79a6a8c82d952899fd657102964666e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_A.fbx
+  importAddress: Guid(dfd6b33fbfb20064c896af8835ce3333) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_A.fbx using Guid(dfd6b33fbfb20064c896af8835ce3333) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5211d8dc2b511c28eb4bfd60052b6040') in 0.0211227 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b6945b8a415c60ec5360a297da40538 DependenciesID=8cac1cd3a1faef38731c568fabdc64af StaticDependenciesID=580e9e0696550be0d48ae7a388078fc7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_C.prefab
+  importAddress: Guid(1697ae8a9c3dbbe40baff038f186ebab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_C.prefab using Guid(1697ae8a9c3dbbe40baff038f186ebab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ef95286b54319d27a33151664317e41') in 0.0179819 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d63658386a24bac38bf9d3de785eefe DependenciesID=2230123d5bbc3d693e2ca324a104b80c StaticDependenciesID=beadaed357f1f050d5416cfc5e2a9641 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Optics/Optics/Optic_E.fbx
+  importAddress: Guid(bbaf00fa59d9ae34a8f75a5871b71acb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Optics/Optics/Optic_E.fbx using Guid(bbaf00fa59d9ae34a8f75a5871b71acb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f618ace3a31c7b2506041e6cd9f6920') in 0.0197707 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39a1bad2a7c9694850a0cb8126fae1e7 DependenciesID=da97e5b0cb34560abc9edfe9c0e6669d StaticDependenciesID=610efbca40c4e5756a04d2047e23dc3c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_E.prefab
+  importAddress: Guid(a52676bbd639b434cbdbd075f5a20fe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_E.prefab using Guid(a52676bbd639b434cbdbd075f5a20fe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab0e72f344a783d5fa96a02646886aa9') in 0.012713 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0786f203146a4f3c181491cf5f3460a3 DependenciesID=6abd613c00a41612dd7e03ec5ee6f25f StaticDependenciesID=c021bd5701b7cf5879e22838532c056f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Rails/Rail_A/Rail_A_Left.prefab
+  importAddress: Guid(1d42d0fbdbf336548bd56fb14d0b13e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Rails/Rail_A/Rail_A_Left.prefab using Guid(1d42d0fbdbf336548bd56fb14d0b13e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '85058b7ee6e60a119b299786002f8eb8') in 0.0130917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c8402b392cc7fbb25cfe0f939677a17 DependenciesID=74d6fbd0c70e266d8774469eb4b148b1 StaticDependenciesID=d9c91da648cc1aca0e239d9952f64b50 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments
+  importAddress: Guid(5ab6efa16ddb20c4f976f4972023e8f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments using Guid(5ab6efa16ddb20c4f976f4972023e8f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cb980dc480a1135470290b582eb972aa') in 0.0120262 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a335982e1caa209bef045ae8615bd1b DependenciesID=adf3ccb4134bb23b900f9420b12f3fd2 StaticDependenciesID=6dce2a6572d960ad1509e7b236521305 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Tatical Lights/Light_D_Left.fbx
+  importAddress: Guid(a49bc12194234644c91e6197d3ee5412) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Tatical Lights/Light_D_Left.fbx using Guid(a49bc12194234644c91e6197d3ee5412) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3c5291fedc9292d44d7c9a1faed7946a') in 0.019353 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=987cba434bc7aabef2c91ea1e72e70c6 DependenciesID=949ed92258853180d87b5c993fcc85a6 StaticDependenciesID=a6276865b7304e6d54a46d1f84dea240 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Low Poly ShotGun Weapon Pack 1_HDRP.unitypackage
+  importAddress: Guid(a85508f0d875825468939df6c7af2671) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Low Poly ShotGun Weapon Pack 1_HDRP.unitypackage using Guid(a85508f0d875825468939df6c7af2671) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '981e3c559c1157f9f1a27aca828497c1') in 0.0094219 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ced86642449815c784c523988355ead0 DependenciesID=25b3e964cec85876ebc1c29d6e491b6f StaticDependenciesID=f30490694e7389a4945bf568cb0c2147 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Up.fbx
+  importAddress: Guid(d8a866e6752c0134bae3608146e68c22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Up.fbx using Guid(d8a866e6752c0134bae3608146e68c22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'be51768b1d5dfc1ec64c4c427efbd923') in 0.0217447 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cfda3035d717adf7c7943a0459653ab3 DependenciesID=d6406a0957a55511321e73b8e582937a StaticDependenciesID=53d971c0213846593b75187db88d3b1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Barrels/Muzzles_ShotGun/Muzzle_ShotGun_Device_B.fbx
+  importAddress: Guid(abc3590e496d4a749a2ad7b37ef70f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Barrels/Muzzles_ShotGun/Muzzle_ShotGun_Device_B.fbx using Guid(abc3590e496d4a749a2ad7b37ef70f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '174a852ae15c30172728f578c111050c') in 0.0200471 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60eeb407272f8b1e6b67304b1bc75764 DependenciesID=c6d769cc54250083eec1cf16d3335be1 StaticDependenciesID=66fa1de877865749f87b68bce9a3d50a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Rails/Rail_A
+  importAddress: Guid(9951557092a82994ea3f915c39d4f6e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Rails/Rail_A using Guid(9951557092a82994ea3f915c39d4f6e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3de5deadd7954aca5f1c8ef9e49cab53') in 0.0114476 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5172b8185c61e4341bde7d71cc30ad3 DependenciesID=c8932f745ba658e6e336a122f8dc8f2e StaticDependenciesID=e2bfe63e2bcf993a141b8092e547cbdf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels
+  importAddress: Guid(c5072d22ddd38584b8612eb1814af90d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/UnderBarrels using Guid(c5072d22ddd38584b8612eb1814af90d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cbf34d8de07c5efe694f6feb31ad477e') in 0.0122997 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2dddbf31e314961e5a7c6fb5148d779b DependenciesID=8eef913faf807f5bdc28f01ea2c6b613 StaticDependenciesID=06f39d7701a89f63c045360ffc84bafb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Weapons/ShotGun_D.fbx
+  importAddress: Guid(6c1bc997d761b4a4b911849a8efcbfcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Weapons/ShotGun_D.fbx using Guid(6c1bc997d761b4a4b911849a8efcbfcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cb13d0e0e9e0d6c795f93febc2191ca2') in 0.031632 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=840b6d12052237e7057bf38e3c665a9e DependenciesID=c8f7c17fa6dc37b91111d1beca62a140 StaticDependenciesID=3d5b7a8be521e2c06448ab0348687254 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lights/Light_C_Left.prefab
+  importAddress: Guid(b2d418510175a8b46a359722517efcc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lights/Light_C_Left.prefab using Guid(b2d418510175a8b46a359722517efcc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'be37d8fb0d7777d1bfaf4609a1401604') in 0.0186623 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d807c9afe9a75f3a12eb96f60f5d57ca DependenciesID=64678eee29fb1281d5b1e37025e19d24 StaticDependenciesID=236fd8d41c6cf20203563155fd09d518 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_J.prefab
+  importAddress: Guid(fe9a6efd51223e84f8787dd1c0e60199) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Optics/Optics/Optic_J.prefab using Guid(fe9a6efd51223e84f8787dd1c0e60199) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6cc1837a31f0082e4a1958cedebee667') in 0.0185415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02ba2444504814236ab6eb454fea2f7f DependenciesID=765c5c22743abe558fdec849c24be902 StaticDependenciesID=3c741d4b1f416e347e585102fdeba22d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Weapons/ShotGun_E.prefab
+  importAddress: Guid(106d42a182d825e4ead3c727dfaacd2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Weapons/ShotGun_E.prefab using Guid(106d42a182d825e4ead3c727dfaacd2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '343b21f9447c6e46fc9e451954290305') in 0.0151986 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17eafd4c2cf6de10e9caef36f91b4f45 DependenciesID=3a9cbce550e7407e35da010713320627 StaticDependenciesID=9c968366fed54af3f93a9e406d4f4fe3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Optics/Optics/Optic_G.fbx
+  importAddress: Guid(a13c9264eef78504fbaa31e40c79678e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Optics/Optics/Optic_G.fbx using Guid(a13c9264eef78504fbaa31e40c79678e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b8dfefede2c2837e6dcc863efa53d524') in 0.0191079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9012f257e1664379592a505a256a2b95 DependenciesID=48db4fe9ebdfe0dbb0d4866b65e83263 StaticDependenciesID=a46b9950492b16598ef524ac1898a8b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories
+  importAddress: Guid(6ad254b5b86c8824b9f210bb4d9e0fbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories using Guid(6ad254b5b86c8824b9f210bb4d9e0fbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b0d704718f39b024390bc628fa52a008') in 0.0118512 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13bc2e3eea9c864273ba1e0449bcb313 DependenciesID=127445e4f9a0d8cb426e8901e869ce6d StaticDependenciesID=55dddc6cb855fa4a77dce17d361ba7d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lights/Light_D_Left.prefab
+  importAddress: Guid(db3b3c29eba558f43b0ebbf3b81bfd46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lights/Light_D_Left.prefab using Guid(db3b3c29eba558f43b0ebbf3b81bfd46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1fb62e3c3c950d1f390f31f54fe88720') in 0.0179976 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88c8c9765fcf5b0323cb1a64a20e6f94 DependenciesID=9827255c2bda204ce900991356e410b3 StaticDependenciesID=a4f88e23442b3b6bbac0510539ec53cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lights
+  importAddress: Guid(a655583fc80e016469928b1293c36722) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Prefabs/Attachments/Accessories/Tatical Lights using Guid(a655583fc80e016469928b1293c36722) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '082702ae5a6868e5857cc615b592e354') in 0.0120502 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7946fc863c7fcfb2af942e35784b022 DependenciesID=11d1c55468d874a39785a59c80e6e75e StaticDependenciesID=06890d5a3b7c7daab9ed86627e062596 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.679644 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Materials/Plane.mat
+  importAddress: Guid(90e4f2de9ae0a284ba2db9bdbd931d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Materials/Plane.mat using Guid(90e4f2de9ae0a284ba2db9bdbd931d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd7c2c0f7fd00a1e05f393531ace33134') in 0.6046817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=234c5bdfff53abdb832aef53e231b1dc DependenciesID=4d64b4698795dbad88f205c82c42c63b StaticDependenciesID=741bba9ef6b1b21a85b5327dd4a697df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.567685 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Right.fbx
+  importAddress: Guid(c6c6aa8d4caecc14f8ccac9fbb3fd19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Right.fbx using Guid(c6c6aa8d4caecc14f8ccac9fbb3fd19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd18d13b49fd32a20423c4632fcd2a370') in 0.076702 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd22c77af3da6b13df17d945d4349062 DependenciesID=40de3c45c9e9e7da5d00f10afc42db56 StaticDependenciesID=62813cf9e2c537668e541a377b57f3a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Up.fbx
+  importAddress: Guid(d8a866e6752c0134bae3608146e68c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Up.fbx using Guid(d8a866e6752c0134bae3608146e68c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5ae3b63fc30e4f7f0efe07b4f6f42014') in 0.024534 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3caf8759372df2adbb4ccadddaa68d69 DependenciesID=6cc2e29bb93edcb756c2951a5ef5f457 StaticDependenciesID=23b24bb5ecf41caca692558188b40a3f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.737642 seconds.
+  path: Assets/Low Poly ShotGun Weapon Pack 1/Models/Weapons/ShotGun_C.fbx
+  importAddress: Guid(76ba83fd1e90bf74787dd6d5c80f87ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly ShotGun Weapon Pack 1/Models/Weapons/ShotGun_C.fbx using Guid(76ba83fd1e90bf74787dd6d5c80f87ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '546c3e8b2063ea9fe8c857a6bb7e94a9') in 0.1692836 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73cebbb4f2710fa1af4c888cfe981d78 DependenciesID=d4cec73dbefb6ee6f3f7f5decfeb396d StaticDependenciesID=ae9bb92b885265809a25e8060237e947 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
